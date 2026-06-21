@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from './Navbar.jsx';
+import Footer from './Footer.jsx';
 
 const REFERRALS_URL = 'https://v9fes04dwf.execute-api.eu-north-1.amazonaws.com/api/referrals';
 const PAGE_SIZE = 10;
