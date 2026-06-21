@@ -1,10 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import ReferralDetail from './pages/ReferralDetail';
-import NotFound from './pages/NotFound';
-import ProtectedRoute from './components/ProtectedRoute';
-import PublicOnlyRoute from './components/PublicOnlyRoute';
+import Login from './Login.jsx';
+import Dashboard from './Dashboard.jsx';
+import ReferralDetail from './ReferralDetail.jsx';
+import NotFound from './NotFound.jsx';
+import ProtectedRoute from './ProtectedRoute.jsx';
+import PublicOnlyRoute from './PublicOnlyRoute.jsx';
 
 export default function App() {
   return (
